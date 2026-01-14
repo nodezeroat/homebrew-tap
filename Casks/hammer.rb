@@ -3,7 +3,7 @@ cask "hammer" do
   name "hammer"
   desc ""
   homepage ""
-  version "0.2.1"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "hammer" do
   on_macos do
     on_intel do
       url "https://o.xdb.be/hammer/release/v#{version}/hammer_Darwin_x86_64.tar.gz"
-      sha256 "8fdbe869b649d1a64f4047279a2332faf1bede9758e881066e6c468ed80a263b"
+      sha256 "b2f643c468bc8bb6adba68c33939f9e7a09585522d1d9250bfb6a52659c9e9ef"
     end
     on_arm do
       url "https://o.xdb.be/hammer/release/v#{version}/hammer_Darwin_arm64.tar.gz"
-      sha256 "bdd629a02afc0608a01f78f50b3224734e428ea408050f997d7e562f2e8c9959"
+      sha256 "9a74e8618d01daa0394538f18e1dbde18bb576b86af2f884b624e514f4e60e32"
     end
   end
 
   on_linux do
     on_intel do
       url "https://o.xdb.be/hammer/release/v#{version}/hammer_Linux_x86_64.tar.gz"
-      sha256 "f7f015b3cfcc6c9a63d645d903e28475c1e5a05dac5db3a233be683a61ba0b77"
+      sha256 "1ae3ec54366092c1aee891c64a8e89ee305b963adb012e8bc066488c234932f7"
     end
     on_arm do
       url "https://o.xdb.be/hammer/release/v#{version}/hammer_Linux_arm64.tar.gz"
-      sha256 "a95b01127220b78477df9c7ac9213ddb2376cc399a3adb471d53af60471e55db"
+      sha256 "72f5fb2e0d839429b0d7718fa87b25de4cdb830f590f9f1483b8330f131ff6e1"
     end
   end
 
